@@ -1,0 +1,53 @@
+/* search feild css */
+.player-search {
+  padding-top: 10px;
+}
+.search-feild {
+  width: 50%;
+  border-radius: 40px;
+  border-width: 2px;
+  padding: 10px;
+  text-align: center;
+}
+/* card details */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px;
+  padding-top: 10px;
+}
+
+.player-list {
+  cursor: pointer;
+  margin: 10px;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 520px;
+}
+/* each element details */
+.player-image {
+  height: 40%;
+  width: 100%;
+}
+.pname {
+  font-size: 22px;
+  font-weight: 600;
+  color: brown;
+}
+.player-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skill {
+  font-size: 18px;
+  color: darkgreen;
+}
+.code {
+  background-color: #6cb4ee;
+  padding: 10px;
+}
