@@ -51,3 +51,9 @@
   background-color: #6cb4ee;
   padding: 10px;
 }
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

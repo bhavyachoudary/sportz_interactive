@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import moment from 'moment'
 import { useNavigate } from 'react-router'
 
 const PlayerDetailsCard = ({ playerData }) => {
+
     const navigate = useNavigate()
     const navigateImage = (id) => {
         console.log(id)
@@ -36,6 +37,7 @@ const PlayerDetailsCard = ({ playerData }) => {
                     </div>
                 ))}
             </div>
+
         </>
     )
 }
